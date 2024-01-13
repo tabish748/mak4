@@ -1,0 +1,176 @@
+
+
+// gallery section
+.drive-gallery-section{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    .heading-area{
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      .heading-page{
+        text-align: center;
+      }
+      .heading-page::after{
+        content: "";
+        z-index: 100;
+        display: block;
+        margin: 16px auto;
+        width: 100px;
+        border-bottom: 2px solid #6db94f;
+        
+      }
+    }
+    .inner-container{
+      max-width: 85%;
+      height: auto;
+      background-color: white;
+      margin: 0 auto;
+      padding: 20px 0px;
+      .gallery-left-area{
+      width: 100%;
+      height: 100%;
+      .three60-img-parent{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        .three60-area{
+          width: 70%;
+          height: 100%;
+          padding: 10px 8px;
+          background-color: whitesmoke;
+          box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -moz-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+         
+        }
+        .left-up-img-area{
+          width: 30%;
+          height: 100%;
+          padding: 0px 8px;
+         
+          align-items: space-between;
+          .left-up-img-divs{
+            width: 100%;
+            height: 30%;
+            margin-top: 6%;
+            box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -moz-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  overflow:hidden;
+  
+            img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              transition: .5s;
+            }
+          }
+          .left-up-img-divs:hover img{
+            transform: scale(1.3);
+            transform-origin: 50% 50%;
+          transition: .5s;
+        }
+        }
+      }
+  
+  
+  .galler-left-bottom-img-parent{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    .galler-left-bottom-img-divs{
+      width: 31%;
+      height: 100%;
+      background-color: #fff;
+      cursor: pointer;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -moz-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  display: block;
+    transition: transform .4s;   /* smoother zoom */
+      }
+      
+    }
+    .galler-left-bottom-img-divs:hover img{
+      transform: scale(1.3);
+      transform-origin: 50% 50%;
+    transition: .5s;
+  }
+  }
+  
+  
+  
+  
+  
+      }
+  
+      .gallery-right-area{
+        width: 100%;
+        height: 100%;
+        .gallery-video-container{
+          width: 100%;
+          height: 75%;
+          padding: 10px 8px;
+          video{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -moz-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+          }
+        }
+        .gallery-video-tabs-area{
+          width: 100%;
+          height: 25%;
+          padding: 8px 0px;
+          .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+            color: #fff;
+            background-color: #fff!important;
+        }
+          .nav{
+            height: 100%;
+            width: 100%;
+           
+            li{
+              width: 50%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              .nav-link{
+                width: 90%;
+                height: 90%;
+                padding:0px!important;
+                box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+  -moz-box-shadow: -9px 10px 13px 2px rgba(0,0,0,0.22);
+              }
+              .play-btn{
+               
+                position: absolute;
+               top: 50%;
+               left: 50%;
+                transform: translate(-50%,-50%);
+                color:#fff;
+                z-index: 10;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  
+  }

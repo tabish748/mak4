@@ -1,0 +1,295 @@
+.heading-page{
+    text-align: center;
+    text-transform: capitalize;
+}
+.heading-page::after{
+  content: "";
+  z-index: 100;
+  display: block;
+  margin: 16px auto;
+  width: 100px;
+  border-bottom: 2px solid #6db94f;
+
+  
+}
+.maritime-edu-top-section{
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+    font-size: calc(1rem + 2.5vw);
+   
+}}
+
+.arabic-maritime-slider-section{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    .inner-container{
+        max-width: 1200px;
+        height: auto;
+        .maritime-slider-inner-wrapper{
+            width: 100%;
+            height: auto;
+            .maritime-content{
+                text-align: center;
+                line-height: 1.6;
+                letter-spacing: 1px;
+            }
+
+
+            .accordion {
+                width: 100%;
+                height: 500px;
+                overflow: hidden;
+                margin: 50px auto;
+                ul {
+                  width: 100%;
+                  display: table;
+                  height: 100%;
+                  table-layout: fixed;
+                  margin: 0;
+                  padding: 0;
+                  li {
+                    display: table-cell;
+                    vertical-align: bottom;
+                    position: relative;
+                    width: 33.33%;
+                    height: 100%;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    transition: all 500ms ease;
+                
+                    
+                    div {
+                      display: block;
+                      overflow: hidden;
+                      width: 100%;
+                      a {
+                        display: block;
+                        height: 100px;
+                        width: 100%;
+                        position: relative;
+                        z-index: 3;
+                        vertical-align: bottom;
+                        padding: 15px 20px;
+                        box-sizing: border-box;
+                        color: #fff;
+                        text-decoration: none;
+                        font-family: Open Sans, sans-serif;
+                        transition: all 200ms ease;
+                        * {
+                          opacity: 0;
+                          margin: 0;
+                          width: 100%;
+                          text-overflow: ellipsis;
+                          position: relative;
+                          z-index: 5;
+                          white-space: nowrap;
+                          overflow: hidden;
+                          transform: translateX(-20px);
+                          transition: all 400ms ease;
+                        }
+                        h2 {
+                          font-family: Montserrat, sans-serif;
+                          text-overflow: clip;
+                          font-size: 24px;
+                          text-transform: uppercase;
+                          margin-bottom: 2px;
+                          top: 0;
+                          color: #fff;
+                        }
+                        p {
+                          
+                          font-size: 13.5px;
+                        }
+                      }
+                    }
+                  }
+                  /*ul*/
+                  &:hover {
+                    li {
+                      width: 10%;
+                      &:hover {
+                        width: 80%;
+                        a {
+                          background: rgba(0, 0, 0, 0.4);
+                          * {
+                            opacity: 1;
+                            transform: translateX(0);
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+  
+              @media screen and (max-width: 600px) {
+                body {
+                  margin: 0;
+                }
+                .accordion {
+                  height: auto;
+                  ul li,
+                  ul li:hover,
+                  ul:hover li,
+                  ul:hover li:hover {
+                    position: relative;
+                    display: table;
+                    table-layout: fixed;
+                    width: 100%;
+                    -webkit-transition: none;
+                    transition: none;
+                  }
+                }
+              }
+
+
+              .maritime-top-3-cards-wrapper{
+                  width: 100%;
+                  height: auto;
+                  padding: 40px 0px;
+                  .inner-container{
+                      max-width: 1200px;
+                      height: auto;
+                    .maritime-card-inner-wrapper{
+                        width: 100%;
+                        height: auto;
+                        padding: 20px;
+                        .maritime-card{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 8px;
+                            border: 1px solid lightgray;
+                            transition: .5s;
+                            padding: 15px;
+                            .content-wrapper{
+                                width: auto;
+                                height: auto;
+                                h3{
+                                    text-align: center;
+                                    padding: 10px 0px;
+                                    font-weight: bold;
+                                    letter-spacing: 2px;
+                                    transition: .5s;
+                                }
+                                img{
+                                    display: block;
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                        .maritime-card:hover{
+                            background-color:#6db94f ;
+                            color: #fff;
+                            h3{
+                                color: #fff;
+                                transition: .5s;
+                            }
+                        }
+                    }
+                }
+              }
+        }
+
+    }
+}
+
+.maritime-call2action-section{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    .inner-container{
+        max-width: 1200px;
+        height: 200px;
+        .call-to-action-inner-wrapper{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .call2action-content-wrapper{
+                width: auto;
+                height: auto;
+                text-align: center;
+                h2{
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                button{
+                    display: block;
+                    margin: 0 auto;
+                    padding: 20px 40px;
+                    background-color: #6db94f;
+                    color: #fff;
+                    border: none;
+                    border-radius: 4px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                }
+                
+            }
+        }   
+    }
+}
+.maritime-opurtunity-section{
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    .inner-container{
+        max-width: 1200px;
+        height: auto;
+        .maritime-opurtunity-inner-wrapper{
+            width: 100%;
+            height: auto;
+            .maritime-opurtunity-cards-wrapper{
+                width: 100%;
+                height: auto;
+                padding: 20px;
+                .opportunity-card{
+                    width: 100%;
+                    height: 100%;
+                    background-color: white;
+                    border: 1px solid lightgray;
+                    padding: 10px;
+                    .img-area{
+                        width: 100%;
+                        height: 85%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    .content-area{
+                        width: 100%;
+                        height: auto;
+                        text-align: center;
+                        padding: 10px;
+                        h3{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

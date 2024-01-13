@@ -1,0 +1,447 @@
+.heading-page {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading-page::after {
+  content: "";
+  z-index: 100;
+  display: block;
+  margin: 16px auto;
+  width: 100px;
+  border-bottom: 2px solid #6db94f;
+}
+
+.government-projects-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.government-projects-section .inner-container {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .realestate-text {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  padding-top: 20px 20px;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper {
+  width: 100%;
+  height: 500px;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul {
+  width: 100%;
+  display: table;
+  height: 100%;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+  /*ul*/
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 33.33%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li:nth-child(1) {
+  background-image: url("./assets/images/construction1.jpg");
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li:nth-child(2) {
+  background-image: url("./assets/images/cons2.jpg");
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li:nth-child(3) {
+  background-image: url("./assets/images/cons3.jpg");
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li:nth-child(4) {
+  background-image: url("./assets/images/cons4.jpg");
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li:nth-child(5) {
+  background-image: url("./assets/images/cons5.jpg");
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li div a {
+  display: block;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li div a h2 {
+  font-family: Montserrat, sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 0;
+  color: #fff;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li div a p {
+  font-size: 13.5px;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul:hover li {
+  width: 10%;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul:hover li:hover {
+  width: 80%;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul:hover li:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+  .government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper body {
+    margin: 0;
+  }
+  .government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion {
+    height: auto;
+  }
+  .government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li,
+  .government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul li:hover,
+  .government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul:hover li,
+  .government-projects-section .inner-container .government-projects-inner-wrapper .accordian-slider-wrapper .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordion {
+  border: 1px solid #BBBBBB;
+  border-top: none;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordion dt {
+  background: rgba(13, 64, 92, 0.9);
+  padding: 10px;
+  color: #fff;
+  border-top: 1px solid #d8d8d8;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordion dt i {
+  float: right;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0.3;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordion dd {
+  display: none;
+  border: 1px solid #EAEAEA;
+  padding: 10px;
+  margin: 0;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .accordion .material-icons {
+  color: white;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper dt.expanded i {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  opacity: 1;
+  color: #fff;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper .government-projects-section .inner-container .government-projects-inner-wrapper .accordion .material-icons {
+  color: white !important;
+}
+
+.government-projects-section .inner-container .government-projects-inner-wrapper TRASH CODE
+.content {
+  font-family: 'Helvetica', sans-serif;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.government-projects-section .government-projects-section .inner-container .government-projects-inner-wrapper .accordion .material-icons {
+  color: white !important;
+}
+
+.private-projects-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.private-projects-section .inner-container {
+  max-width: 1200px;
+  height: auto;
+  background-color: lightsalmon;
+}
+
+.private-projects-section .inner-container .private-sector-inner-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.private-projects-section .inner-container .private-sector-inner-wrapper .private-project-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.private-projects-section .inner-container .private-sector-inner-wrapper .private-project-wrapper .private-prop-card {
+  width: 100%;
+  height: 350px;
+  background-color: gray;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 30px;
+}
+
+.private-projects-section .inner-container .private-sector-inner-wrapper .private-project-wrapper .private-prop-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.private-projects-section .inner-container .private-sector-inner-wrapper .private-project-wrapper .private-prop-card .overlay-prop-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.private-projects-section .inner-container .private-sector-inner-wrapper .private-project-wrapper .private-prop-card .overlay-prop-card h3 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.private-projects-section .inner-container .private-sector-inner-wrapper .private-project-wrapper .private-prop-card:hover .overlay-prop-card {
+  display: block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.why-we-best-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.why-we-best-section .inner-container {
+  max-width: 1200px;
+  height: auto;
+}
+
+.why-we-best-section .inner-container .why-best-inner-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.why-we-best-section .inner-container .why-best-inner-wrapper .why-best-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.why-we-best-section .inner-container .why-best-inner-wrapper .why-best-wrapper .choose-card1 {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9ff;
+  -webkit-box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 15px;
+  padding-top: 50px;
+}
+
+.why-we-best-section .inner-container .why-best-inner-wrapper .why-best-wrapper .choose-card1 img {
+  display: inline;
+  padding-right: 10px;
+}
+
+.why-we-best-section .inner-container .why-best-inner-wrapper .why-best-wrapper .choose-card1 h3 {
+  display: inline;
+  font-size: 22px;
+}
+
+.why-we-best-section .inner-container .why-best-inner-wrapper .why-best-wrapper .choose-card1 p {
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 20px 0px;
+}
+
+.top-posts-section {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 40px 0px;
+}
+
+.top-posts-section .inner-container {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card {
+  width: 100%;
+  background-color: whitesmoke;
+  height: 450px;
+  border-radius: 10px;
+  padding: 20px;
+  -webkit-box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card .property-card-img-area {
+  width: 100%;
+  height: 75%;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card .property-card-img-area img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card .property-txt-area {
+  width: 100%;
+  height: 25%;
+  padding: 10px;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card .property-txt-area p, .top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card .property-txt-area h4 {
+  margin: 0;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card .property-txt-area h4 {
+  font-size: 20px;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card .property-txt-area p {
+  font-size: 16px;
+  padding: 5px 0px;
+}
+
+.top-posts-section .inner-container .top-posts-inner-wrapper .top-posts-wrapper .property-card:hover img {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=realestate.css.map */

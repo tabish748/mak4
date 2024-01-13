@@ -1,0 +1,346 @@
+.heading-page {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading-page::after {
+  content: "";
+  z-index: 100;
+  display: block;
+  margin: 16px auto;
+  width: 100px;
+  border-bottom: 2px solid #6db94f;
+}
+
+.maritime-edu-top-section {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.maritime-edu-top-section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+  font-size: calc(1rem + 2.5vw);
+}
+
+.arabic-maritime-slider-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.arabic-maritime-slider-section .inner-container {
+  max-width: 1200px;
+  height: auto;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-content {
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul {
+  width: 100%;
+  display: table;
+  height: 100%;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+  /*ul*/
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 33.33%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li div a {
+  display: block;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li div a h2 {
+  font-family: Montserrat, sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 0;
+  color: #fff;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li div a p {
+  font-size: 13.5px;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul:hover li {
+  width: 10%;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul:hover li:hover {
+  width: 80%;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul:hover li:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+  .arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper body {
+    margin: 0;
+  }
+  .arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion {
+    height: auto;
+  }
+  .arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li,
+  .arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul li:hover,
+  .arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul:hover li,
+  .arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container {
+  max-width: 1200px;
+  height: auto;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container .maritime-card-inner-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container .maritime-card-inner-wrapper .maritime-card {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 15px;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container .maritime-card-inner-wrapper .maritime-card .content-wrapper {
+  width: auto;
+  height: auto;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container .maritime-card-inner-wrapper .maritime-card .content-wrapper h3 {
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container .maritime-card-inner-wrapper .maritime-card .content-wrapper img {
+  display: block;
+  margin: 0 auto;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container .maritime-card-inner-wrapper .maritime-card:hover {
+  background-color: #6db94f;
+  color: #fff;
+}
+
+.arabic-maritime-slider-section .inner-container .maritime-slider-inner-wrapper .maritime-top-3-cards-wrapper .inner-container .maritime-card-inner-wrapper .maritime-card:hover h3 {
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.maritime-call2action-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.maritime-call2action-section .inner-container {
+  max-width: 1200px;
+  height: 200px;
+}
+
+.maritime-call2action-section .inner-container .call-to-action-inner-wrapper {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maritime-call2action-section .inner-container .call-to-action-inner-wrapper .call2action-content-wrapper {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.maritime-call2action-section .inner-container .call-to-action-inner-wrapper .call2action-content-wrapper h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.maritime-call2action-section .inner-container .call-to-action-inner-wrapper .call2action-content-wrapper button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background-color: #6db94f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.maritime-opurtunity-section {
+  width: 100%;
+  height: auto;
+  padding: 40px 0px;
+}
+
+.maritime-opurtunity-section .inner-container {
+  max-width: 1200px;
+  height: auto;
+}
+
+.maritime-opurtunity-section .inner-container .maritime-opurtunity-inner-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.maritime-opurtunity-section .inner-container .maritime-opurtunity-inner-wrapper .maritime-opurtunity-cards-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.maritime-opurtunity-section .inner-container .maritime-opurtunity-inner-wrapper .maritime-opurtunity-cards-wrapper .opportunity-card {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.maritime-opurtunity-section .inner-container .maritime-opurtunity-inner-wrapper .maritime-opurtunity-cards-wrapper .opportunity-card .img-area {
+  width: 100%;
+  height: 85%;
+}
+
+.maritime-opurtunity-section .inner-container .maritime-opurtunity-inner-wrapper .maritime-opurtunity-cards-wrapper .opportunity-card .img-area img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.maritime-opurtunity-section .inner-container .maritime-opurtunity-inner-wrapper .maritime-opurtunity-cards-wrapper .opportunity-card .content-area {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.maritime-opurtunity-section .inner-container .maritime-opurtunity-inner-wrapper .maritime-opurtunity-cards-wrapper .opportunity-card .content-area h3 {
+  margin: 0;
+}
+/*# sourceMappingURL=maritime-education.css.map */

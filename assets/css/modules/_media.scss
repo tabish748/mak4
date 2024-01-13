@@ -1,0 +1,264 @@
+@include media-breakpoint-up(xs) { //480
+
+}
+
+@include media-breakpoint-up(sm) { //576
+
+}
+
+@include media-breakpoint-up(md) { //768
+
+}
+
+@include media-breakpoint-up(lg) { //992
+
+}
+
+@include media-breakpoint-up(xl) { //1200
+
+}
+
+@include media-breakpoint-up(xxl) { //1400
+
+}
+
+/* NON Mobile ----------------- */
+
+@include media-breakpoint-down(xxl) { //1399.98
+
+}
+
+@include media-breakpoint-down(xl) { //1199.98
+
+}
+
+@include media-breakpoint-down(lg) { //991.98
+
+}
+
+@include media-breakpoint-down(md) { //767.98
+
+}
+
+@include media-breakpoint-down(sm) { //575.98
+
+}
+
+@include media-breakpoint-down(xs) { //479.98
+
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:575px) and (min-width:320px) {
+    .our-project-left-area{
+        p{
+            padding:15px 0px 15px 0px!important;
+            text-align: justify!important;
+            line-height: 1.5;
+        }
+    }
+    .map-section-parent .inner-container .map-card-wrapper .inner-map-card-wrapper {
+        width: 100%!important;
+    }
+    .pending-projects-section .inner-container .ec-company-left-area .top-content-wrapper {
+        height: 10%!important;
+    }
+    .pending-projects-section .inner-container .ec-company-left-area .text-wrapper p {
+       text-align: justify;
+       line-height: 1.5;
+    }
+    .home-content-wrapper{
+        width: 95%!important;
+    }
+    .slider-content-area1,.slider-content-area2,.slider-content-area3{
+        padding: 0px 10px!important ;
+    }
+    .home-content-wrapper p{
+        font-size: 14px!important;
+    }
+    .linend-text-area{
+        align-items: center!important;
+    }
+    .hr{
+        display: none;
+    }
+    .our-projects-section .inner-container .our-project-gallery-area .gallery-tabs-area {
+        height: 30%!important;
+        .project-tab-img-area{
+            height: 60%!important;
+        }
+        .project-tab-text-area{
+            height: 40%!important;
+            overflow: hidden!important;
+        }
+    }
+
+    .forhunmargin{
+        margin-top: 20px!important;
+    }
+    .form-parent{
+        width: 90%!important;
+    }
+    .driving-school-page-wrapper .inner-container .our-programs .card {
+        width: 220px!important;  
+    }
+    .driving-school-page-wrapper .inner-container .our-programs #cards-container {
+        margin: 0px!important;
+    }
+    .driving-school-page-wrapper .inner-container .our-programs .container {
+        width: 100%!important;
+        padding: 4px!important;
+       
+    }
+    .driving-school-page-wrapper .inner-container .our-programs .card-img-wrapper img {
+      
+        -webkit-clip-path: none!important;
+        clip-path:none!important;
+       
+    }
+    .driving-school-page-wrapper .inner-container .our-programs {
+     
+        padding: 0px!important;
+    }
+    .drive-gallery-section .inner-container .gallery-right-area .gallery-video-tabs-area .nav li .play-btn {
+    width: 32px!important;
+   
+}
+.apointmnt-form-parent .form-parent .form .input-wrapper input {
+    
+    height: 25px!important;
+    font-size: 14px!important;
+    padding: 10px!important;
+    
+}
+.apointmnt-form-parent .form-parent {
+    height: 450px!important;
+  .form{
+      margin: 0px!important;
+  }
+}
+.apointmnt-form-parent .form-parent .form {
+   
+    padding: 0px 10px!important;
+  
+}
+.apointmnt-form-parent .form-parent .form .input-wrapper .btn {
+    height: 40px!important;
+}
+.event-information-txtarea{
+    margin: 10px 0px!important;
+    height: auto!important;
+}
+.mobile-nav-drop-y-auto{
+    height: 200px!important;
+    overflow-y: auto!important
+}
+.under-construction-popup{
+    width: 80%!important;
+}
+.hidemapsec{
+    display: none!important;
+}
+.mob-map-section{
+    display: block!important;
+}
+}
+
+@media all and (max-width:767px) and (min-width:576px) {
+    .hidemapsec{
+        display: none!important;
+    }
+    .mob-map-section{
+        display: block!important;
+    }
+    .home-content-wrapper{
+        width: 95%!important;
+    }
+    .slider-content-area1,.slider-content-area2,.slider-content-area3{
+        padding: 0px 10px!important ;
+    }
+    .form-parent{
+        width: 70%!important;
+    }
+}
+
+
+@media all and (max-width:991px) and (min-width:768px) {
+    .button--nina{
+        padding:0px 30px!important;
+    }
+    .form-parent{
+        width: 70%!important;
+    }
+}
+
+@media all and (max-width:1199px) and (min-width:992px) {
+   
+}
+
+@media all and (max-width:2000px) and (min-width:992px) {
+    .event-information-txtarea{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        margin: 40px 0px;
+        position: absolute!important;
+            bottom: -32px!important;
+            left: -32px!important;
+            z-index: -10!important;
+        padding: 20px 30px;
+        box-shadow: 10px 10px 44px -6px rgba(0,0,0,0.6);
+-webkit-box-shadow: 10px 10px 44px -6px rgba(0,0,0,0.6);
+-moz-box-shadow: 10px 10px 44px -6px rgba(0,0,0,0.6);
+            p{
+                line-height: 1.5;
+            }
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// specific media query for slider
+
+
+@media all and (max-width:1100px) and (min-width:768px) {
+   
+
+}
